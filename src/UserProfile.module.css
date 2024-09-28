@@ -1,0 +1,52 @@
+
+  .profileCard {
+    width: 450px;
+    padding: 0;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 15px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cardContent {
+    padding: 40px;
+    background-color: #ccffcc;
+    border: 12px solid #a0d6a0;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3);  /* Внутренняя тень */
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 24px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .button {
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #ddd;
+  }
